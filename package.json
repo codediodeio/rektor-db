@@ -1,0 +1,24 @@
+{
+  "name": "rektor-db",
+  "version": "0.0.1",
+  "description": "Rektor is a pre-revenue, pre-code, and pre-vision vector database.",
+  "main": "index.js",
+  "scripts": {
+    "test": "test get rekt"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codediodeio/rektor-db.git"
+  },
+  "keywords": [
+    "get",
+    "rekt",
+    "db"
+  ],
+  "author": "codediodeio",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/codediodeio/rektor-db/issues"
+  },
+  "homepage": "https://github.com/codediodeio/rektor-db#readme"
+}
