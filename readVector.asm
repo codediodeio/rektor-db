@@ -1,3 +1,4 @@
+;help
 section .data
     filename db 'vectors.rek',0  ; Name of input file
     prompt db 'Enter index of vector to print (0-based): ',0
@@ -7,7 +8,7 @@ section .data
     ; Define variables to hold user input and vector data
     vector_count dw 0
     vector_index dw 0
-    vectors resw 10000             ; Reserve space for up to some amount of vectors i forgottt
+    vectors resw 100000000000000000000000000             ; Reserve space for up to some amount of vectors i forgottt
 
 section .text
     global _start
