@@ -1,0 +1,5 @@
+[workspace]
+members = [
+    "rektor-core",
+    "rektor-cli"
+]
