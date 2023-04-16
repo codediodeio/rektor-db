@@ -1,4 +1,4 @@
-module github.com/codediodeio/rektor-db
+module github.com/BryceWayne/rektor-db
 
 go 1.19
 
