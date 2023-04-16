@@ -10,7 +10,7 @@ Rektor is a highly-scalable, high-performance vector database designed to store 
 * Written in Go for fast performance and minimal resource usage.
 
 ## Installation
-Rektor is still in development and not yet available for installation. However, we are actively seeking investors to help us bring Rektor to market. If you are interested in learning more about our vision and becoming a part of our team, please contact us at info@rektor.com.
+Rektor is still in development and not yet available for installation. However, we are actively seeking investors to help us bring Rektor to market. If you are interested in learning more about our vision and becoming a part of our team, please contact us at info@rektor.tech.
 
 ## Examples
 Here's an example of how to use Rektor in your Go code:
@@ -60,6 +60,8 @@ We chose to use Go Fiber as the framework for our API due to its fast performanc
 
 ### Vector search performance
 Rektor uses the FAISS library for fast similarity search and nearest neighbor queries. FAISS is a highly optimized library for searching large collections of vectors, and is designed to take advantage of modern CPU architectures and parallel processing.
+
+~TODO:~ Rektor uses Google's ScaNN library for fast similarity search and nearest neighbor queries. ScaNN is a highly optimized library for approximate nearest neighbor search on high-dimensional vectors, and is designed to handle large datasets with fast performance.
 
 We are currently conducting performance benchmarks to measure the performance of Rektor under different workloads and configurations, and will update this section with more information once the results are available.
 
