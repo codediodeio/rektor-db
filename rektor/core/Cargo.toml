@@ -1,0 +1,9 @@
+[package]
+name = "rektor-db-core"
+version = "0.1.0"
+edition = "2021"
+authors = [
+    "Матвей Т <github.com/AtomicGamer9523> <linkrbot.com>"
+]
+
+[dependencies]

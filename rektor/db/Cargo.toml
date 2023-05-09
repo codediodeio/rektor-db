@@ -1,0 +1,15 @@
+[package]
+name = "rektor-db"
+version = "0.1.0"
+edition = "2021"
+authors = [
+    "Матвей Т <github.com/AtomicGamer9523> <linkrbot.com>"
+]
+
+[lib]
+name = "rektordb"
+path = "lib.rs"
+
+[dependencies.rektordbcore]
+package = "rektor-db-core"
+path = "../core"

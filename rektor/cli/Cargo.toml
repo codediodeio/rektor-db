@@ -1,0 +1,14 @@
+[package]
+name = "rektor-cli"
+version = "0.1.0"
+edition = "2021"
+authors = [
+    "naol arega <github.com/naolarega>",
+    "Матвей Т <github.com/AtomicGamer9523> <linkrbot.com>"
+]
+
+[[bin]]
+name = "rektordb"
+path = "src/main.rs"
+
+[dependencies]
